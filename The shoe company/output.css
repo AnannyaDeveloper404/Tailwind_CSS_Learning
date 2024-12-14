@@ -554,6 +554,15 @@ video {
   display: none;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .-mt-8 {
   margin-top: -2rem;
 }
@@ -562,8 +571,60 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
+.h-\[\] {
+  height: ;
+}
+
 .w-32 {
   width: 8rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[756\] {
+  width: 756;
+}
+
+.w-\[756px\] {
+  width: 756px;
+}
+
+.w-px {
+  width: 1px;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.max-w-7 {
+  max-width: 1.75rem;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-between {
@@ -581,6 +642,42 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\.\/\'\)\] {
+  background-image: url('./');
+}
+
+.bg-\[url\(\'\.\/ima\'\)\] {
+  background-image: url('./ima');
+}
+
+.bg-\[url\(\'\.\/images\'\)\] {
+  background-image: url('./images');
+}
+
+.bg-\[url\(\'\.\/images\/background-road-share\.png\'\)\] {
+  background-image: url('./images/background-road-share.png');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -591,18 +688,69 @@ video {
   padding-bottom: 3rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[64px\] {
+  line-height: 64px;
+}
+
+.leading-\[72px\] {
+  line-height: 72px;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
